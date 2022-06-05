@@ -14,15 +14,14 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Wirtschaftsinformatiker, Front- und Back-End entwickler mit fundierten Kenntnissen in IT-operations, DevOps, Requierments Engineering, Project- sowie Prozessmanagement. Motiviert eine Bereicherung für Ihr Unternehmen zu sein.",
+      "Als Wirtschaftsinformatik-Student bringe ich jede Menge neues Wissen und Offenheit gegenüber Technologien, Innovationen sowie deren Anwendung in Unternehmensalltag. Wie ich aus Erfahrung gelernt habe: je breiter die Fachkenntnisse, desto einfacher ist es, eine Lösung zu finden.",
     highlights: {
       bullets: [
-        "Full Stack Web Entwicklung",
-        "IT Operations",
-        "Requirments Engineering",
-        "Cloud Services",
-        "Sustain Business Development",
-        "Prozessmodelierung",
+        "Front- and Backend Entwicklung. API Integration. Mockup Design. ",
+        "IT Operations (WAN/LAN, Windows/Linux, Infrastruktur)",
+        "Projektmanagement (Agile, Scrum)",
+        "Cloud Services (Amazon Web Services, Red Hat)",
+        "Prozessmodelierung und -management. Virtualsierung.",
       ],
       heading: "Hier sind meine Kernkompetenzen:",
     },
@@ -42,7 +41,7 @@ export default function AboutMe(props) {
       id={props.id || ""}
     >
       <div className="about-me-parent">
-        <ScreenHeading title={"Über mich"} subHeading={"Warum mich wehlen?"} />
+        <ScreenHeading title={"Über mich"} subHeading={"Warum mich wählen?"} />
         <div className="about-me-card">
           <div className="about-me-profile"></div>
           <div className="about-me-details">

@@ -91,20 +91,20 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="education">
       <ResumeHeading
         heading={"Berner Fachhochschule"}
-        subHeading={"BACHELOR OF SCIENCE Wirtschaftsinformatik"}
+        description={"Bachelor of Science in Wirtschaftsinformatik"}
         fromDate={"09.2020"}
         toDate={"derzeitig"}
       />
 
       <ResumeHeading
-        heading={"Interkantonale Sicherheits- Ausbildung"}
-        subHeading={"Fachkunde, Branchenkunde, Sozialkompetenz"}
+        heading={"Interkantonale Sicherheitsausbildung"}
+        description={"Fachkunde, Branchenkunde, Sozialkompetenz"}
         fromDate={"05.2017"}
         toDate={"05.2017"}
       />
       <ResumeHeading
         heading={"Gymnasiale Maturität "}
-        subHeading={"Schwerpunktfach: Wirtschaft & Recht"}
+        description={"Schwerpunktfach: Wirtschaft & Recht"}
         fromDate={"08.2013"}
         toDate={"07.2016"}
       />
@@ -114,30 +114,37 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Freelancing"}
-          subHeading={"FULL STACK DEVELOPER"}
-          fromDate={"2022"}
+          heading={"IT Freelancing"}
+          description={
+            "Front- & Backend Entwicklung. Beteiligung an Pilotprojekten"
+          }
+          fromDate={"04.022"}
           toDate={"derzeitig"}
         />
+        <br></br>
+        <br></br>
+        <ResumeHeading
+          heading={"Teamleiter IT"}
+          description={
+            "Reibungslose, lösungsorientierte und effizient aggierende Dienstleistung mit dem Ziel eine effiziente Arbeitsumgebung sowie Infrastruktur unterhalten."
+          }
+          fromDate={"09.2021"}
+          toDate={"04.2022"}
+        />
+        <br></br>
+        <br></br>
+        <ResumeHeading
+          heading={"Betriebsspezialist"}
+          description={
+            "Personalplanung. Einsatzführung. Mitarbeitersupport. Kundenbetreuung."
+          }
+          fromDate={"05.2019"}
+          toDate={"09.2021"}
+        />
         <div className="experience-description">
-          <span className="resume-description-text">
-            Aktuell arbeite an der Projekten
-          </span>
+          <span className="resume-description-text"></span>
         </div>
-        <div className="experience-description">
-          <span className="resume-description-text">
-            - Entwickelte dies und das
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Auch hier habe ich etwas entwickelt{" "}
-          </span>
-          <br />
-          <span className="resume-description-text">
-            - Waiterbildung auch erwähnen
-          </span>
-          <br />
-        </div>
+        <br></br>
       </div>
     </div>,
 
@@ -177,16 +184,18 @@ const Resume = (props) => {
     /* Interests */
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
-        heading="Schwimmen"
-        description="Schwimmen als anspruchsvolle Ausgleich zum Alltag."
+        heading="Schwimmen(Freibad)"
+        description="Ausgleich zum anspruchsvollen Alltag."
       />
       <ResumeHeading
         heading="Sound Design"
-        description="Leistungsfähige Home Studio als mentale Entlastund und Förderung der Kreativität."
+        description="Home Studio als mentale Entlastung und Förderung
+        der Kreativität."
       />
       <ResumeHeading
         heading="Outdoor Aktivitäten"
-        description="Vor allem bei schönem Wetter macht es mir viel Spass mit meinen Kollegen oder auch alleine die Natur geniessen."
+        description="Vor allem bei schönem Wetter macht es mir viel Spass mit meinen
+        Kollegen oder auch alleine die Natur geniessen."
       />
     </div>,
   ];
@@ -245,7 +254,10 @@ const Resume = (props) => {
       id={props.id || ""}
     >
       <div className="resume-content">
-        <ScreenHeading title={"Resume"} subHeading={"My formal Bio Details"} />
+        <ScreenHeading
+          title={"Lebenslauf"}
+          subHeading={"Der Weg ist das Ziel"}
+        />
         <div className="resume-card">
           <div className="resume-bullets">
             <div className="bullet-container">
