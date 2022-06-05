@@ -10,8 +10,8 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://gitlab.com/gorbunovv8" target="_blank">
-                <i class="fa-brands fa-gitlab"></i>
+              <a href="https://github.com/gorbunov8" target="_blank">
+                <i class="fa-brands fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/vladyslavgorbunov"
