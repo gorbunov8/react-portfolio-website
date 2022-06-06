@@ -17,11 +17,19 @@ export default function AboutMe(props) {
       "Als Wirtschaftsinformatik-Student bringe ich jede Menge neues Wissen und Offenheit gegenüber Technologien, Innovationen sowie deren Anwendung in Unternehmensalltag. Wie ich aus Erfahrung gelernt habe: je breiter die Fachkenntnisse, desto einfacher ist es, eine Lösung zu finden.",
     highlights: {
       bullets: [
+<<<<<<< HEAD
         "Front- and Backend Entwicklung. UI / UX Design",
         "IT Operations (WAN/LAN, Windows/Linux, Infrastruktur)",
         "Projektmanagement (Agile, Scrum)",
         "Cloud Services (Amazon Web Services, Red Hat)",
         "Prozessmodelierung und -management. Virtualsierung"
+=======
+        "Front- and Backend Entwicklung. API Integration. Mockup Design. ",
+        "IT Operations (WAN/LAN, Windows/Linux, Infrastruktur)",
+        "Projektmanagement (Agile, Scrum)",
+        "Cloud Services (Amazon Web Services, Red Hat)",
+        "Prozessmodelierung und -management. Virtualsierung.",
+>>>>>>> b92dc4b60854dfb4e138ac1f160669b7c84d82c9
       ],
       heading: "Hier sind meine Kernkompetenzen:",
     },
@@ -41,7 +49,7 @@ export default function AboutMe(props) {
       id={props.id || ""}
     >
       <div className="about-me-parent">
-        <ScreenHeading title={"Über mich"} subHeading={"Warum mich wehlen?"} />
+        <ScreenHeading title={"Über mich"} subHeading={"Warum mich wählen?"} />
         <div className="about-me-card">
           <div className="about-me-profile"></div>
           <div className="about-me-details">

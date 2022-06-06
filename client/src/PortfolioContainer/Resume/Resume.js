@@ -96,12 +96,15 @@ const Resume = (props) => {
         toDate={"07.2024"}
       />
       <ResumeHeading
+<<<<<<< HEAD
         heading={"Berner Fachhochschule"}
         description={"Bachelor of Science in Informatik (ohne Abschluss)"}
         fromDate={"09.2018"}
         toDate={"01.2020"}
       />
       <ResumeHeading
+=======
+>>>>>>> b92dc4b60854dfb4e138ac1f160669b7c84d82c9
         heading={"Interkantonale Sicherheitsausbildung"}
         description={"Fachkunde, Branchenkunde, Sozialkompetenz"}
         fromDate={"05.2017"}
@@ -119,9 +122,15 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
+<<<<<<< HEAD
           heading={"Weiterbildung & Stellensuche"}
           description={
             "Weiterbildung durch selbständige IT-Projekte. Stellensuche in folgenden Bereichen: Front- and Backend Entwicklung, IT Operations, IT Consulting, Projekt Management."
+=======
+          heading={"IT Freelancing"}
+          description={
+            "Front- & Backend Entwicklung. Beteiligung an Pilotprojekten"
+>>>>>>> b92dc4b60854dfb4e138ac1f160669b7c84d82c9
           }
           fromDate={"04.022"}
           toDate={"derzeitig"}
@@ -133,7 +142,11 @@ const Resume = (props) => {
           description={
             "Reibungslose, lösungsorientierte und effizient aggierende Dienstleistung mit dem Ziel eine effiziente Arbeitsumgebung sowie Infrastruktur unterhalten."
           }
+<<<<<<< HEAD
           fromDate={"10.2021"}
+=======
+          fromDate={"09.2021"}
+>>>>>>> b92dc4b60854dfb4e138ac1f160669b7c84d82c9
           toDate={"04.2022"}
         />
         <br></br>
@@ -141,7 +154,11 @@ const Resume = (props) => {
         <ResumeHeading
           heading={"Betriebsspezialist"}
           description={
+<<<<<<< HEAD
             "Personal- und Einsatzplanung. Einsatzführung. Mitarbeitersupport run um IT / Technische Fragen. Kundenbetreuung. Zusammenarbeit mit Blaulichtorganisationen"
+=======
+            "Personalplanung. Einsatzführung. Mitarbeitersupport. Kundenbetreuung."
+>>>>>>> b92dc4b60854dfb4e138ac1f160669b7c84d82c9
           }
           fromDate={"05.2019"}
           toDate={"09.2021"}
