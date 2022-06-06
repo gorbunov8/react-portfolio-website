@@ -7,6 +7,9 @@
   min-height: fit-content;
   background-image: url("../../../assets/Home/govatechbg.png");
 }
+.typical-text {
+  font-size: xx-small;
+}
 .profile-parent {
   display: flex;
   align-items: center;
@@ -40,10 +43,14 @@
   margin: 0 0 0 28px;
   border-radius: 12px solid white;
 }
+.profile-options .primary-btn:hover {
+  transform: scale(0.95);
+}
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
   background-color: cornsilk;
   color: #111;
+  transform: scale(0.95);
 }
 .profile-picture {
   display: flex;
