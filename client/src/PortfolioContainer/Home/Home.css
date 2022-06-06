@@ -4,4 +4,5 @@
   justify-content: space-between;
   min-height: 670px;
   background-image: url("../../assets/Home/govatechbg.png");
+  max-width: 1920px;
 }
